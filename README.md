@@ -1,6 +1,6 @@
 # Trash To Treasure 
 
-Online Portal to Sell/Buy stuffs. Made using Spring MVC, Hibernate and MySQL. Used AJAX to get searches from the list.
+Online Portal to Sell/Buy stuff. Made using Spring MVC, Hibernate, and MySQL. Used AJAX to get searches from the list. Spring STS was used to develop the portal with Hibernate. MySQL Workbench was used for Database.
 
 # Screenshots
 
