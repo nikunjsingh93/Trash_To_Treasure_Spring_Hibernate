@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+		"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+		"http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+        <property name="hibernate.connection.password">nikunj</property>
+        <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/fndb</property>
+        <property name="hibernate.connection.username">root</property>
+        <property name="hibernate.dialect">org.hibernate.dialect.MySQL5Dialect</property>
+        <property name="hibernate.hbm2ddl.auto">update</property>
+        <property name="hibernate.show_sql">true</property>
+        
+        <mapping class="com.nik.me.pojo.User" />
+		<mapping class="com.nik.me.pojo.Email" />
+		<mapping class="com.nik.me.pojo.Person" />
+	    <mapping class="com.nik.me.pojo.Advert" />
+		<mapping class="com.nik.me.pojo.Category" />
+      	<mapping class="com.nik.me.pojo.Message" />
+        
+				
+    </session-factory>
+</hibernate-configuration>
